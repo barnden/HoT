@@ -133,8 +133,12 @@ class TSCN:
                 # Otherwise, we are adding key-value pairs as entries of the resource node
                 value = value.replace("\n", "\\n")
                 value = re.sub(r"^\"(.*)\"$", r"\1", value)
+
+                # Note: Some descriptions begin with a plus symbol to denote positive stats
+                #       However, some spreadsheet software interprets this as an equation,
+                #       use string equations to get around this.
                 if value.startswith("+"):
-                    value = "'" + value
+                    value = f'="{value}"'
 
                 rsc.entries[key] = value
 

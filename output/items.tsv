@@ -1,43 +1,43 @@
 file	slot	name	desc	grade	price	prereqs_any	prereqs_and	exclude_any
 itm_b_Blazing_Armor	Body	Blazing Shell	Enemies that touch you have a high chance to start burning. (50%)\n+ 6 Block Strength	3	8000	["q_Ember_ScorchedKilled_1"]		
-itm_b_Chain_Mail	Body	Chain Mail	'+10% health capacity\n+ 3 defense	1	2000			
+itm_b_Chain_Mail	Body	Chain Mail	="+10% health capacity\n+ 3 defense"	1	2000			
 itm_b_DefiantPlate	Body	Defiant Plate	Grants 3 Defense for 5 seconds after taking damage.\nCan't go over 30 Defense.	1	7000	["q_Shieldmaiden_NoDefense_1"]		
 itm_b_HunterGarb	Body	Hunter's Garb	If you stand still your damage is increases by 8% per second (up to 40%). The bonus is reset as soon as you move.	2	6000	["q_Archer_Stay_1"]		
 itm_b_LeechSkin	Body	Blood-Soaked Shirt	Killing an enemy has a 3% chance to give you 1 health point	2	5000	["q_Swordsman_Regenerate_1"]		
-itm_b_Plate_Armor	Body	Plate Armor	'+6 block strength	1	2000			
+itm_b_Plate_Armor	Body	Plate Armor	="+6 block strength"	1	2000			
 itm_b_ShadowCloak	Body	Shadow Cloak	Spawns shadows near you that damage enemies and increase your block strength by 10.	2	5000	["q_Warlock_Evade_1"]		
 itm_f_ElectrostaticTreads	Feet	Electrostatic Treads	Charges up when you move. When fully charged emits an electric shock wave that damages and stuns enemies.	3	8000	["q_Sorceress_MovingSpeed_1"]		
 itm_f_ElvenBoots	Feet	Elven Slippers	Increases block strength while moving. Builds up by moved distance. Block strength is limited to 10, movement speed buffs increase the cap. Standing still removes the bonus.	2	4000	["q_Archer_Level_1"]		
 itm_f_Firewalker	Feet	Firewalker Boots	While you move you produce a trail of fire that damages your enemies. Firepatches have a low chance to burn enemies.	3	8000	["q_Exterminator_Walk_1"]		
 itm_f_Goo_Shoes	Feet	Bogged Boots	Leave a trail of goo, Enemies that touch the goo slow down. Puddles disappear after 10 seconds or when several enemies moved over it.	1	4000	["q_Caverns_SlimesKilled_1"]		
 itm_f_Pacemaker	Feet	Pace Setter	For every 10 seconds without moving, you heal 1% of your max. health.	2	4000	["q_Cleric_NoRegeneration_1"]		
-itm_f_Plated_Boots	Feet	Plated Boots	'+3 defense\n+3 block strength	1	2000			
-itm_f_Runner_Shoes	Feet	Runner Shoes	'+15% movement speed	1	2000			
+itm_f_Plated_Boots	Feet	Plated Boots	="+3 defense\n+3 block strength"	1	2000			
+itm_f_Runner_Shoes	Feet	Runner Shoes	="+15% movement speed"	1	2000			
 itm_f_Spike_Boots	Feet	Spike Boots	When hit, drop 10 spikes to the ground that deal 100 damage and stun the enemy on contact. Takes 4 seconds to recharge. Can't be blocked.	2	3000	["q_Swordsman_Walk_1"]		
 itm_g_FancerGauntlets	Gloves	Fencer Gauntlets	Each time you block you have a 50% chance for an additional attack that always crits.\n+5 Block Strength	3	5000	["q_Shieldmaiden_Crits_1"]		
-itm_g_HuntingGloves	Gloves	Hunting Gloves	'+30% Additional Strike / Projectile	2	3500	["q_Archer_Kills_1"]		
-itm_g_InvokatorsGrasp	Gloves	Invocator's Grasp	'+40% Summon Spawns\n+40% Summon Duration\n+20% Summon Damage	3	6500	["q_Warlock_Level_2"]		
-itm_g_Longfinger_Gloves	Gloves	Longfinger Gloves	'+80% pickup range	1	2000			
-itm_g_Quickhand_Gloves	Gloves	Quickhand Gloves	'+20% attack speed	1	2000			
+itm_g_HuntingGloves	Gloves	Hunting Gloves	="+30% Additional Strike / Projectile"	2	3500	["q_Archer_Kills_1"]		
+itm_g_InvokatorsGrasp	Gloves	Invocator's Grasp	="+40% Summon Spawns\n+40% Summon Duration\n+20% Summon Damage"	3	6500	["q_Warlock_Level_2"]		
+itm_g_Longfinger_Gloves	Gloves	Longfinger Gloves	="+80% pickup range"	1	2000			
+itm_g_Quickhand_Gloves	Gloves	Quickhand Gloves	="+20% attack speed"	1	2000			
 itm_g_SpellcasterGloves	Gloves	Spellcaster Gloves	When you do not use your main attack for 2 seconds, your abilities become stronger over time, up to 66.6%.	3	6660	["q_Ember_Wellkeeper_3"]		
 itm_g_Thornfists	Gloves	Thornfists	Deals a critical hit to each enemy that hurts you.	2	3000	["q_Swordsman_GetHit_1"]		
 itm_h_BabarianCrown	Head	Wind Crown	1% attack speed for 5s for each killed enemy (up to +50% attack speed).	1	7000	["q_Archer_Evade_1"]		
 itm_h_DevouringHands	Gloves	Devouring Hands	When you die, Devouring Hands will consume a random equipped item to revive you with 30% of your max health	1	10000	["_NA"]		
 itm_h_FightersHeadband	Head	Fighter's Headband	On killing a boss or elite: Activate health regeneration for 30 seconds regenerating 1% health per second.	2	3000	["q_Swordsman_BossKills_1"]		
 itm_h_GorgonMask	Head	Gorgon Mask	[not implemented\nEvery second you looks at the enemies, you slow them. Deals 1 damage per stack slow on the enemies when triggering.	1	5000	["_NA"]		
-itm_h_Helmet	Head	Helmet	'+3 defense\n+3 block strength	1	2000			
-itm_h_Hood	Head	Hood	'+12% health capacity\n+2 defense	1	2000			
+itm_h_Helmet	Head	Helmet	="+3 defense\n+3 block strength"	1	2000			
+itm_h_Hood	Head	Hood	="+12% health capacity\n+2 defense"	1	2000			
 itm_h_Ruby_Circlet	Head	Ruby Circlet	Deals 4% additional damage for each burning enemy. Limited to 60%.	3	8000	["q_Exterminator_MassBurn_1"]		
 itm_h_SparkingTips	Gloves	Sparking Tips	When you hit a burning enemy with physical attacks, that enemy will spark fire damage projectiles dealing damage based on the burn strength with a chance to set the targets on fire.	2	4000	["q_Exterminator_Destroyer_1"]		
 itm_h_ThunderCrown	Head	Thunder Crown	Hitting electrified enemies with magic attacks triggers a lightning. The lightning deals 100 damage and has a chance to electrify the target.	3	7500	["q_Sorceress_ApplyElectrify_1"]		
 itm_h_WarHorns	Head	War Horns	Every 5s you perform a war cry which weakens enemies in its range for 5s adding 3 stacks of fragile to them.	2	4000	["q_Caverns_HellhoundsKilled_1"]		
 itm_n_BloodCatcher	Neck	Blood Catcher	Each time you've dealt 100x your maximum health in damage, you regenerate 1 health point.	3	6000	["q_Cleric_NoMaxHealth_1"]		
-itm_n_ChallengersEye	Neck	Collar of Confidence	'+5% damage for each enemy in your pickup range.\nThe maximum is 50%	3	8000	["q_Archer_Tries_1"]		
+itm_n_ChallengersEye	Neck	Collar of Confidence	="+5% damage for each enemy in your pickup range.\nThe maximum is 50%"	3	8000	["q_Archer_Tries_1"]		
 itm_n_DuellistSpark	Neck	Duellist's Spark	50% damage\n -5% damage for each enemy in your pickup range	3	8000	["q_Shieldmaiden_Lord_1"]		
 itm_n_Gatherers_Charm	Neck	Gatherer's Charm	Helps you locating ingredients for new potions.\n+10% Movement Speed	1	0	["q_Viaduct_Cupbearer_1"]		
-itm_n_Jade_Amulette	Neck	Jade Amulett	'+50% XP Gain	2	5000	["q_Main_Level_1"]		
+itm_n_Jade_Amulette	Neck	Jade Amulett	="+50% XP Gain"	2	5000	["q_Main_Level_1"]		
 itm_n_Maidens_Tear	Neck	Maiden's Tear	When you would take damage, regenerate 10% health instead. Recharges 90 seconds.	2	5000	["q_Shieldmaiden_Regenerate_1"]		
-itm_n_ScarsOfToil	Neck	Scars of Toil	'+0.07% damage for each missing health point	3	6500	["q_Swordsman_Level_1"]		
+itm_n_ScarsOfToil	Neck	Scars of Toil	="+0.07% damage for each missing health point"	3	6500	["q_Swordsman_Level_1"]		
 itm_n_Warriors_Hearth	Neck	Warrior's Fervour	When picking up a potion, add a rage buff for 15 seconds. Takes 60 seconds to recharge.\n+100% Attackspeed\n+100% Damage	2	4000	["__NA"]		
 itm_q_bottle_memory	Consumable	Memorizing Bottle	When retreived and bought, allows the Cupbearer to increase the amount of available Potions of Memory.	1	2000	["NO_UNLOCK"]		
 itm_q_bottle_oblivion	Consumable	Oblivious Bottle	When retreived and bought, allows the Cupbearer to increase the amount of available Potions of Oblivion.	1	1200	["NO_UNLOCK"]		
@@ -46,11 +46,11 @@ itm_q_bottle_wine	Consumable	Wine Bottle	When retreived and bought, allows the C
 itm_r_Copper_Ring	Ring	Copper Ring	Increases the  critical damage by 40%.	1	2500			
 itm_r_DemonicBond	Ring	Demonic Bond	Every 5 seconds, you summons an imp to fight by your side. They will be gone after a set time which can be extended.\nCan handle 5 summons at a time.	2	5000	["q_Ember_Boss_1"]		
 itm_r_GuidingStar	Ring	Guiding Star	While attacking: +40% attack speed, -30% movement speed\nWhile moving: -30% attack speed, +40% movement speed	3	6000	["q_Archer_Walk_1"]		
-itm_r_Iron_Ring	Ring	Iron Ring	'+10 base attack damage	2	4000			
+itm_r_Iron_Ring	Ring	Iron Ring	="+10 base attack damage"	2	4000			
 itm_r_NecromancersClutch	Ring	Necromancers Clutch	Every 15 seconds, you summon a skeleton to fight for you. They will perish after a set time, but their life force can be extended.\nCan handle 5 summons at a time. 	2	5000	["q_Caverns_Boss_2"]		
 itm_r_PyromancerBand	Ring	Ring of Fire	Transforms the damage type of your main weapon into fire.\n+15% Burn Chance	3	5000	["q_Exterminator_Level_1"]		
 itm_r_Rat_Ring	Ring	Pest Ring	Summons a rat every 2 seconds. Rats bite up to 10 random enemies applying 5 debuffs at random with each bite.	2	3500	["q_Exterminator_Kills_1"]		
 itm_r_RingOfThunder	Ring	Ring of Thunder	Transforms the damage type of you main weapon into elecrticity.\n+15% Electrify Chance	3	5500	["q_Sorceress_HitDamage_1"]		
 itm_r_SealOfRebirth	Ring	Seal of Rebirth	When you die, the seal breaks and revives you with 50% of your max health	4	10000	["q_Main_ItemPurchased_1"]		
 itm_r_ShockwaveCore	Ring	Echoing Band	Damaging an enemy with physical attacks has a 20% chance to deal 40% of the damage as splash damage.	3	8000	["q_Swordsman_HitDamage_1"]		
-itm_r_Wooden_Ring	Ring	Wooden Ring	'+10% base crit chance	1	2500			
+itm_r_Wooden_Ring	Ring	Wooden Ring	="+10% base crit chance"	1	2500			
